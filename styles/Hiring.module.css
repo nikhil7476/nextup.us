@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+.section2piy {
+  /*display: grid;*/
+  grid-template-columns: 1.2fr 1fr;
+  background-color: #fbf8f2;
+  padding: 0 3rem 7rem 3rem;
+}
+.section2piy h1 {
+  color: #000000;
+  font-family: "Montserrat", Sans-serif;
+  font-size: 45px;
+  font-weight: 600;
+}
+.innerSection {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 1rem;
+}
+.innerSection span {
+  text-align: center;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #e2e2e2;
+  border-radius: 15px;
+  transition: 0.3s;
+}
+.innerSection span:hover {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.hiringForm {
+  background-color: #192733 !important;
+  padding: 20px 35px 35px 35px;
+  border-radius: 20px;
+}
+
+.exp2 {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  margin-top: 6rem;
+  gap: 1rem;
+}
+
+.bannerimg {
+  width: 26rem;
+}
+.benefitsIcons {
+  font-size: 17px;
+}
+
+.skills{
+  font-size: 35px !important;
+  font-family: Montserrat, Sans-serif;
+  font-weight:600;
+}
+
+.devex{
+  font-size: 35px !important;
+  font-family: Montserrat, Sans-serif;
+  font-weight:600;
+  padding-top:30px;
+  padding-bottom:0px;
+}
+
+.benhire{
+  font-size: 35px !important;
+  font-family: Montserrat, Sans-serif;
+  font-weight:600;
+  padding-top:30px;
+  padding-bottom:0px;
+}
+
+.h3ded{
+    font-size: 22px;
+    padding-top: 20px;
+    font-family: Montserrat, Sans-serif;
+}
+
+.getstrt{
+  color:#fff;
+  font-family: Montserrat, Sans-serif;
+  font-size:30px;
+  padding-top:30px;
+}
+
+.cnthea{
+  font-size:40px;
+  font-weight:600;
+  padding-top:15px;
+}
+
+.adptmd{
+  font-size:40px;
+  font-family: Montserrat, Sans-serif;
+  padding-top:30px;
+  font-weight:600;
+  letter-spacing:2px;
+}
+
+.payuse{
+  font-size:25px;
+  font-family: Montserrat, Sans-serif;
+}
+
+.comrea{
+  color:#fff !important;
+  font-size:35px !important;
+  font-family: Montserrat, Sans-serif !important;
+  padding-top:30px !important;
+  padding-bottom:0px !important;
+}
+
+@media (max-width: 1100px) {
+  .exp2 {
+    grid-template-columns: auto;
+  }
+}
+@media (max-width: 786px) {
+  .section2piy {
+    display: grid;
+    grid-template-columns: auto;
+  }
+}
+
+@media screen and (max-width:600px){
+  .bannerimg{
+    width:50% !important;
+  }
+
+  .section2piy{
+    padding:0px !important;
+  }
+ 
+  #exp{
+    margin-left:0px !important;
+  }
+
+}
